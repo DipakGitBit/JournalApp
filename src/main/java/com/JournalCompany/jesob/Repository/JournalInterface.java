@@ -1,0 +1,15 @@
+package com.JournalCompany.jesob.Repository;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import com.JournalCompany.jesob.Entity.JournalEntity;
+import com.JournalCompany.jesob.Entity.User;
+
+
+@Repository
+public interface JournalInterface extends MongoRepository<JournalEntity, ObjectId> {
+
+}
+

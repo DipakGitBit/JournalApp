@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://dipakpaul199:December123@mongometapp.wbwue.mongodb.net/springboot?retryWrites=true&w=majority&appName=mongoMetapp
+      auto-index-creation: true
+  application:
+    name: JournalCompany
+
+server:
+  port: 8080
