@@ -20,7 +20,9 @@ public class PublicController {
 	
 	@GetMapping("/healthcheck")
 	public String healthcheck() {return "ok";}
-	
+
+
+
 	@PostMapping
 	public void createuser(@RequestBody User user) {
 		userService.saveNewUser(user);
